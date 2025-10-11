@@ -9,24 +9,24 @@
 
 -- Multi-track URLs
 local tracksURLs = {
-    ["1"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG1.json",
-    ["2"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG2.json",
-    ["3"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG3.json",
-    ["4"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG4.json",
-    ["5"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG5.json",
-    ["6"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG6.json",
-    ["7"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG7.json",
-    ["8"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG8.json",
-    ["9"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG9.json",
-    ["10"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG10.json",
-    ["11"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG11.json",
-    ["12"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG12.json",
-    ["13"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG13.json",
-    ["14"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG14.json",
-    ["15"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG15.json",
-    ["16"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG16.json",
-    ["17"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG17.json",
-    ["18"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/PG18.json"
+    ["1"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG1.json",
+    ["2"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG2.json",
+    ["3"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG3.json",
+    ["4"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG4.json",
+    ["5"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG5.json",
+    ["6"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG6.json",
+    ["7"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG7.json",
+    ["8"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG8.json",
+    ["9"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG9.json",
+    ["10"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG10.json",
+    ["11"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG11.json",
+    ["12"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG12.json",
+    ["13"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG13.json",
+    ["14"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG14.json",
+    ["15"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG15.json",
+    ["16"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG16.json",
+    ["17"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG17.json",
+    ["18"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/NG18.json"
 }
 
 local savedTracks = {}
