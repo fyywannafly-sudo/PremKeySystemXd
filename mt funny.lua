@@ -9,13 +9,13 @@
 
 -- Multi-track URLs
 local tracksURLs = {
-    ["1"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/FUNNY_1.json",
-    ["2"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/FUNNY_2.json",
-    ["3"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/FUNNY_3.json",
-    ["4"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/FUNNY_4.json",
-    ["5"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/FUNNY_5.json",
-    ["6"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/FUNNY_6.json",
-    ["7"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/FUNNY_SUMMIT.json"
+    ["1"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_FIX_TRACK_1.json",
+    ["2"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_FIX_TRACK_2.json",
+    ["3"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_FIX_TRACK_3.json",
+    ["4"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_FIX_TRACK_4.json",
+    ["5"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_FIX_TRACK_5.json",
+    ["6"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_FIX_TRACK_6.json",
+    ["7"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/SUMMIT_FIX_TRACK_FUNNY.json"
 
 }
 
