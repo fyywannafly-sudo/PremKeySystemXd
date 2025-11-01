@@ -953,14 +953,42 @@ Instance.new("UICorner", closeBtn).CornerRadius = UDim.new(1, 0)
 
 closeBtn.MouseButton1Click:Connect(function()
     Frame.Visible = false
-    local logoBtn = Instance.new("TextButton", ScreenGui)
+    local logoBtn = Instance.new("ImageButton", ScreenGui) -- Changed to ImageButton
     logoBtn.Size = UDim2.new(0, 40, 0, 40)
     logoBtn.Position = UDim2.new(0, 50, 0, 50)
-    logoBtn.Text = "Fyy"
     logoBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-    logoBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
-    logoBtn.TextScaled = true
+    logoBtn.Image = "rbxassetid://106899268176689" -- Replace with your image ID
+    logoBtn.ScaleType = Enum.ScaleType.Fit
     Instance.new("UICorner", logoBtn).CornerRadius = UDim.new(1, 0)
+
+    -- Drag function for logo button
+    local function setupLogoDrag(target)
+        local dragging, dragStart, startPos
+        target.InputBegan:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+                dragging = true
+                dragStart = input.Position
+                startPos = target.Position
+                input.Changed:Connect(function()
+                    if input.UserInputState == Enum.UserInputState.End then
+                        dragging = false
+                    end
+                end)
+            end
+        end)
+        target.InputChanged:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+                if dragging then
+                    local delta = input.Position - dragStart
+                    target.Position = UDim2.new(
+                        startPos.X.Scale, startPos.X.Offset + delta.X,
+                        startPos.Y.Scale, startPos.Y.Offset + delta.Y
+                    )
+                end
+            end
+        end)
+    end
+    setupLogoDrag(logoBtn)
 
     logoBtn.MouseButton1Click:Connect(function()
         Frame.Visible = true
@@ -968,7 +996,7 @@ closeBtn.MouseButton1Click:Connect(function()
     end)
 end)
 
--- Drag Function
+-- Drag Function for main frame
 local function setupDrag(target)
     local dragging, dragStart, startPos
     target.InputBegan:Connect(function(input)
@@ -996,3 +1024,15 @@ local function setupDrag(target)
     end)
 end
 setupDrag(Frame)
+
+
+local function createNotification()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "PERHATIAN",
+        Text = "PILIH AVA TERLEBIH DAHULU",
+        Duration = 6,
+        Icon = "rbxassetid://106899268176689" 
+    })
+end
+
+createNotification()
