@@ -9,13 +9,13 @@
 
 -- Multi-track URLs
 local tracksURLs = {
-    ["1"] = "https://raw.githubusercontent.com/mizuu-cloud/Mizuuwok/refs/heads/main/FUNNY_BARU_1.json",
-    ["2"] = "https://raw.githubusercontent.com/mizuu-cloud/Mizuuwok/refs/heads/main/FUNNY_BARU_2.json",
-    ["3"] = "https://raw.githubusercontent.com/mizuu-cloud/Mizuuwok/refs/heads/main/FUNNY_BARU_3.json",
-    ["4"] = "https://raw.githubusercontent.com/mizuu-cloud/Mizuuwok/refs/heads/main/FUNNY_BARU_4.json",
-    ["5"] = "https://raw.githubusercontent.com/mizuu-cloud/Mizuuwok/refs/heads/main/FUNNY_BAR_5.json",
-    ["6"] = "https://raw.githubusercontent.com/mizuu-cloud/Mizuuwok/refs/heads/main/FUNNY_BARU_6.json",
-    ["7"] = "https://raw.githubusercontent.com/mizuu-cloud/Mizuuwok/refs/heads/main/FUNNY_BARU_SUMMIT.json"
+    ["1"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_NEW_1.json",
+    ["2"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_NEW_2.json",
+    ["3"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_NEW_3.json",
+    ["4"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_NEW_4.json",
+    ["5"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_NEW_5.json",
+    ["6"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_NEW_6.json",
+    ["7"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_NEW_SUMMIT.json"
 }
 
 local savedTracks = {}
@@ -205,9 +205,13 @@ local orderedTrackNames = {"1", "2", "3", "4", "5", "6", "7"}
     end
 
 local function respawnPlayer()
-    player.Character:BreakJoints()
+    local teleBase = workspace:WaitForChild("TeleBase")
+    
+    if player.Character then
+        local humanoidRootPart = player.Character:WaitForChild("HumanoidRootPart")
+        humanoidRootPart.CFrame = teleBase.CFrame
+    end
 end
-
     -- FUNCTION TRIGGERJUMP
     local lastLanding = 0
     local landingCooldown = 0.2
