@@ -10,12 +10,12 @@
 -- Multi-track URLs
 local tracksURLs = {
     ["1"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_NEW_1.json",
-    ["2"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_NEW_2.json",
-    ["3"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_NEW_3.json",
-    ["4"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_NEW_4.json",
-    ["5"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_NEW_5.json",
-    ["6"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_NEW_6.json",
-    ["7"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_NEW_SUMMIT.json"
+    ["2"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_FIX_CP_2.json",
+    ["3"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_FIX_CP_3.json",
+    ["4"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_FIX_CP_4.json",
+    ["5"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_FIX_CP_5.json",
+    ["6"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_FIX_CP_6.json",
+    ["7"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/FUNNY_FIX_SUMMIT.json"
 }
 
 local savedTracks = {}
